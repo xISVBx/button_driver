@@ -1,0 +1,12 @@
+# Artefactos de Kbuild por fase
+/kernel/fase*/build/*
+!/kernel/fase*/build/.gitkeep
+
+# Binarios locales de las apps de prueba
+/app/fase_2
+/app/fase_3
+
+# Archivos generados por Python y lgpio
+__pycache__/
+*.pyc
+.lgd-nfy*

@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Raspberry Pi 5",
+            "compilerPath": "/usr/bin/aarch64-linux-gnu-gcc-14",
+            "intelliSenseMode": "linux-gcc-arm64",
+            "cStandard": "gnu11",
+            "includePath": [
+                "/usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include",
+                "/usr/src/linux-headers-6.12.47+rpt-rpi-2712/arch/arm64/include/generated",
+                "/usr/src/linux-headers-6.12.47+rpt-common-rpi/include",
+                "/usr/src/linux-headers-6.12.47+rpt-rpi-2712/include",
+                "/usr/src/linux-headers-6.12.47+rpt-common-rpi/arch/arm64/include/uapi",
+                "/usr/src/linux-headers-6.12.47+rpt-rpi-2712/arch/arm64/include/generated/uapi",
+                "/usr/src/linux-headers-6.12.47+rpt-common-rpi/include/uapi",
+                "/usr/src/linux-headers-6.12.47+rpt-rpi-2712/include/generated/uapi"
+            ],
+            "forcedInclude": [
+                "/usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler-version.h",
+                "/usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/kconfig.h",
+                "/usr/src/linux-headers-6.12.47+rpt-common-rpi/include/linux/compiler_types.h"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "CC_USING_PATCHABLE_FUNCTION_ENTRY",
+                "KASAN_SHADOW_SCALE_SHIFT=",
+                "CONFIG_CC_HAS_K_CONSTRAINT=1",
+                "ARM64_ASM_ARCH=\"armv8.5-a\"",
+                "KASAN_SHADOW_SCALE_SHIFT=",
+                "MODULE",
+                "KBUILD_BASENAME=\"button_driver\"",
+                "KBUILD_MODNAME=\"button_driver\"",
+                "__KBUILD_MODNAME=kmod_button_driver"
+            ]
+        }
+    ],
+    "version": 4
+}
